@@ -1,0 +1,6 @@
+[submodule "voting-system-api"]
+	path = voting-system-api
+	url = https://github.com/anakarlasantana/voting-system-api.git
+[submodule "voting-system-web"]
+	path = voting-system-web
+	url = https://github.com/anakarlasantana/voting-system-web.git

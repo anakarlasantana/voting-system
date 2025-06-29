@@ -8,6 +8,7 @@ Este projeto é um monorepo que agrupa:
 
 - **Backend (Django + DRF + JWT):** [`voting-system-api`](https://github.com/anakarlasantana/voting-system-api)
 - **Frontend (React + MUI + Redux):** [`voting-system-web`](https://github.com/anakarlasantana/voting-system-web)
+- **Importante: Em caso de dúvidas nos README.md de cada repositótio, contem informações que pode ajudar.**
 
 ## 🚀 Rodando a aplicação com Docker
 

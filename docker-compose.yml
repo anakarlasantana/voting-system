@@ -1,11 +1,12 @@
-version: "3.8"
-
 services:
   backend:
     build:
       context: ./voting-system-api
+      dockerfile: Dockerfile
     volumes:
       - ./voting-system-api:/app
+    working_dir: /app
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     ports:
       - "8000:8000"
     container_name: voting-backend
@@ -13,8 +14,11 @@ services:
   frontend:
     build:
       context: ./voting-system-web
+      dockerfile: Dockerfile
     volumes:
       - ./voting-system-web:/app
+    working_dir: /app
+    command: yarn dev
     ports:
       - "5173:5173"
     container_name: voting-frontend

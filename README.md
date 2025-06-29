@@ -98,13 +98,19 @@ Frontend
 
     A aplicação sobe com apenas 1 comando
 
-❗ Dívidas Técnicas
+## ❗ Dívidas Técnicas
 
-    Ainda não há testes automatizados no front.
+- **Ausência de Testes Automatizados no Frontend**  
+  Até o momento, não foram implementados testes automatizados para os componentes e funcionalidades do frontend. A solução ideal seria incluir testes unitários e de integração utilizando ferramentas como Jest e React Testing Library.
 
-    O banco SQLite foi usado para simplificar a persistência (ideal seria PostgreSQL em produção).
+- **Uso de SQLite no Backend**  
+  O projeto utiliza o banco de dados SQLite por questões de simplicidade e agilidade no desenvolvimento e containerização. Em ambientes de produção, o ideal seria utilizar um banco mais robusto como PostgreSQL, que oferece melhor performance, segurança e suporte a múltiplos usuários.
 
-    Os formulários poderiam ter tratamento de erros mais robusto e mascaras dos inputs.
+- **Validação de Formulários**  
+  Os formulários do frontend ainda possuem validações básicas. Idealmente, deveriam ter validações mais robustas, com feedback detalhado para o usuário em caso de erros, além de máscaras nos campos de entrada (como CPF, senha, etc).
+
+- **Controle de Sessões de Votação**  
+  A verificação de sessões ativas e o controle do tempo da votação ainda são simplificados. Em um cenário real, seria importante ter uma interface que indique o tempo restante para votar e bloqueie automaticamente após o fim da sessão.
 
 🙋‍♀️ Autora
 

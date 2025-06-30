@@ -35,7 +35,7 @@ docker-compose up --build
 
 🌐 Acessos
 Serviço URL
-Frontend http://localhost:5173
+Frontend http://localhost
 Backend API http://localhost:8000
 
 ### 4. Acessos

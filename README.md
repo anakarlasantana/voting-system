@@ -33,6 +33,14 @@ git submodule update --init --recursive
 docker-compose up --build
 ```
 
+📝 Observações:
+
+- O frontend é empacotado com Vite (`yarn build`) e servido via nginx.
+- Essa abordagem simula uma entrega real de produção.
+- Portanto, após subir com `docker-compose up --build`, o frontend estará disponível em `http://localhost` (porta 80 padrão).
+- Não é necessário criar `.env` nem configurar variáveis — tudo já vem pronto para rodar.
+
+
 🌐 Acessos
 Serviço URL
 Frontend http://localhost

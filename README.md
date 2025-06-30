@@ -38,12 +38,6 @@ Serviço URL
 Frontend http://localhost
 Backend API http://localhost:8000
 
-### 4. Acessos
-
-    Frontend: http://localhost:5173
-
-    Backend (API): http://localhost:8000
-
 🧪 Funcionalidades
 👤 Autenticação
 
